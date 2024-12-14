@@ -1,0 +1,10 @@
+include stan/*.stan
+include LICENSE
+include pyproject.toml
+
+# Ensure in-place built models do not get included in the source dist.
+prune prophet/stan_model
+
+# Necessary for tests to run
+include prophet/tests/*.csv
+include prophet/tests/*.json

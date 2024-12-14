@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS(N) \
+#N": BUILD_HOST		shitbox (x86_64)" ENDL \
+#N": BUILD_OS		Ubuntu 22.04.3 LTS" ENDL \
+#N": BUILD_KERNEL	Linux 5.15.0-125-generic #135-Ubuntu SMP Fri Sep 27 13:53:58 UTC 2024" ENDL \
+#N": BUILD_GCC		g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0" ENDL \
+#N": BUILD_LIBC	2.35" ENDL \
+#N": BUILD_LD		" ENDL \
+#N": BUILD_TARGET	intel64 on cc11.4.0_libc2.35_kernel5.15.0" ENDL \
+#N": BUILD_COMMAND	g++ -O2 -g -DDO_ITT_NOTIFY -DUSE_PTHREAD -pthread -m64 -mrtm -Wall -Wextra -Wno-unknown-warning-option -Wno-deprecated-copy -Wno-missing-attributes -Wno-class-memaccess -Wno-sized-deallocation -DTBB_SUPPRESS_DEPRECATED_MESSAGES=1 -std=c++1y -I../tbb_2020.3/src -I../tbb_2020.3/src/rml/include -I../tbb_2020.3/include" ENDL \
+
+#define __TBB_DATETIME "Sat Dec 14 08:17:04 PM UTC 2024"
